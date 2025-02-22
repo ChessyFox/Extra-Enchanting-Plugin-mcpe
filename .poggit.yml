@@ -1,0 +1,6 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ChessyFox/Extra-Enchanting-Plugin-mcpe
+build-by-default: true
+branches:
+- main
+projects: []
+...
