@@ -1,0 +1,65 @@
+# Custom Enchantment Levels & Costs
+xp_costs:
+  sharpness:
+    1: 5
+    2: 10
+    3: 15
+    4: 20
+    5: 30
+    6: 40
+    7: 50
+    8: 55
+    9: 60
+    10: 80
+  efficiency:
+    1: 5
+    2: 10
+    3: 15
+    4: 20
+    5: 25
+    6: 35
+    7: 45
+    8: 50
+    9: 55
+    10: 60
+  fortune:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 60
+  power:
+    1: 5
+    2: 10
+    3: 15
+    4: 20
+    5: 25
+    6: 30
+    7: 35
+    8: 40
+    9: 45
+    10: 60
+  protection:
+    1: 5
+    2: 10
+    3: 15
+    4: 20
+    5: 25
+    6: 30
+    7: 35
+    8: 40
+    9: 45
+    10: 80
+
+# Custom Formulas for Each Enchantment Effect
+enchantment_modifiers:
+  sharpness:
+    formula: "1 + (level * 0.5)"   # Adds 0.5 extra damage per level
+  efficiency:
+    formula: "1 + (level^2 / 2)"   # Mining speed scales with level squared
+  fortune:
+    formula: "level / (level + 2)" # Higher levels give more extra drops
+  power:
+    formula: "(level + 1) * 0.5"   # Bow damage increases linearly
+  protection:
+    formula: "(4 * level) / 100"   # 4% damage reduction per level

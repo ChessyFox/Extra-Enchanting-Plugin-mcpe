@@ -1,0 +1,6 @@
+name: Chessy_Advanced_Enchantments
+version: 1.0.0
+main: EnchantAdvance\Main  # This must match the namespace and class in Main.php
+api: 5.0.0  # This must match your PocketMine version
+author: ChessyFod
+description: "A custom enchantment plugin that allows higher-level enchants and custom XP costs. for owners: can customize enchantLevel and EnchantmentCost , support custom enchantments (have to add manually i config.yml"
